@@ -167,7 +167,7 @@ function Dashboard() {
                       getAriaLabel={() => "Temperature"}
                       orientation="vertical"
                       getAriaValueText={valuetext}
-                      defaultValue={[20, 37]}
+                      defaultValue={[0.5, 6.5]}
                       valueLabelDisplay="auto"
                       marks={marks}
                     />
@@ -180,7 +180,7 @@ function Dashboard() {
                       getAriaLabel={() => "Temperature"}
                       orientation="vertical"
                       getAriaValueText={valuetext}
-                      defaultValue={[0, 3]}
+                      defaultValue={[0.5, 6.5]}
                       valueLabelDisplay="auto"
                       marks={marks}
                     />
@@ -193,7 +193,7 @@ function Dashboard() {
                       getAriaLabel={() => "Temperature"}
                       orientation="vertical"
                       getAriaValueText={valuetext}
-                      defaultValue={[20, 37]}
+                      defaultValue={[0.5, 6.5]}
                       valueLabelDisplay="auto"
                       marks={marks}
                     />
