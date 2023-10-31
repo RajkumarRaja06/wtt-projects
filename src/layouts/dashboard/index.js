@@ -180,7 +180,7 @@ function Dashboard() {
                       getAriaLabel={() => "Temperature"}
                       orientation="vertical"
                       getAriaValueText={valuetext}
-                      defaultValue={[0.5, 6.5]}
+                      defaultValue={[6.5, 0.5]}
                       valueLabelDisplay="auto"
                       marks={marks}
                     />
