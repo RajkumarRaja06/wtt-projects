@@ -97,92 +97,17 @@ function Dashboard() {
 
   return (
     <DashboardLayout>
-      {/* <DashboardNavbar /> */}
       <MDBox py={3}>
         <Grid container spacing={3}>
-          {/* <Grid item xs={12} md={6} lg={3}>
-            <MDBox mb={1.5}>
-              <ComplexStatisticsCard
-                color="dark"
-                icon="weekend"
-                title="Bookings"
-                count={281}
-                percentage={{
-                  color: "success",
-                  amount: "+55%",
-                  label: "than lask week",
-                }}
-              />
-            </MDBox>
-          </Grid> */}
           <Grid item xs={12} md={6} lg={3}>
-            {/* <MDBox mb={1.5}>
-              <ComplexStatisticsCard
-                icon="leaderboard"
-                title="Today's Users"
-                count="2,300"
-                percentage={{
-                  color: "success",
-                  amount: "+3%",
-                  label: "than last month",
-                }}
-              />
-            </MDBox> */}
             <h1>MRB LIVE</h1>
           </Grid>
-          {/* <Grid item xs={12} md={6} lg={3}>
-            <MDBox mb={1.5}>
-              <ComplexStatisticsCard
-                color="success"
-                icon="store"
-                title="Revenue"
-                count="34k"
-                percentage={{
-                  color: "success",
-                  amount: "+1%",
-                  label: "than yesterday",
-                }}
-              />
-            </MDBox>
-          </Grid>
-          <Grid item xs={12} md={6} lg={3}>
-            <MDBox mb={1.5}>
-              <ComplexStatisticsCard
-                color="primary"
-                icon="person_add"
-                title="Followers"
-                count="+91"
-                percentage={{
-                  color: "success",
-                  amount: "",
-                  label: "Just updated",
-                }}
-              />
-            </MDBox>
-          </Grid> */}
         </Grid>
         <MDBox mt={4.5}>
           <Grid container spacing={3}>
             <Grid item xs={12} md={6} lg={4}>
               <MDBox mb={3}>
-                {/* <ReportsBarChart
-                  color="info"
-                  title="SMBR 901 & 902"
-                  // description="Last Campaign Performance"
-                  // date="campaign sent 2 days ago"
-                  chart={reportsBarChartData}
-                /> */}
-                <Card
-                  // variant="outlined"
-                  // sx={{
-                  //   display: "flex",
-                  //   alignItems: "center",
-                  //   justifyContent: "center",
-                  //   pt: 10,
-                  //   height: 300,
-                  // }}
-                  className="home-cart"
-                >
+                <Card className="home-cart">
                   <ReactSpeedometer
                     maxValue={100}
                     value={20}
@@ -199,18 +124,7 @@ function Dashboard() {
             </Grid>
             <Grid item xs={12} md={6} lg={4}>
               <MDBox mb={3}>
-                {/* <ReportsLineChart color="success" title="SMBR 903 & 904" chart={sales} /> */}
-                <Card
-                  // variant="outlined"
-                  // sx={{
-                  //   display: "flex",
-                  //   alignItems: "center",
-                  //   justifyContent: "center",
-                  //   pt: 10,
-                  //   height: 300,
-                  // }}
-                  className="home-cart"
-                >
+                <Card className="home-cart">
                   <ReactSpeedometer
                     maxValue={100}
                     value={20}
@@ -226,20 +140,7 @@ function Dashboard() {
               </MDBox>
             </Grid>
             <Grid item xs={12} md={6} lg={4}>
-              {/* <MDBox mb={3}>
-                <ReportsLineChart color="dark" title="SMBR 905 & 906" chart={tasks} />
-              </MDBox> */}
-              <Card
-                // variant="outlined"
-                // sx={{
-                //   display: "flex",
-                //   alignItems: "center",
-                //   justifyContent: "center",
-                //   pt: 10,
-                //   height: 300,
-                // }}
-                className="home-cart"
-              >
+              <Card className="home-cart">
                 <ReactSpeedometer
                   maxValue={100}
                   value={20}
@@ -279,7 +180,7 @@ function Dashboard() {
                       getAriaLabel={() => "Temperature"}
                       orientation="vertical"
                       getAriaValueText={valuetext}
-                      defaultValue={[20, 37]}
+                      defaultValue={[0, 3]}
                       valueLabelDisplay="auto"
                       marks={marks}
                     />
@@ -303,7 +204,6 @@ function Dashboard() {
             </Grid>
 
             <Grid item xs={12} md={6} lg={4}>
-              {/* <OrdersOverview /> */}
               <div className="home-btn">
                 <FormGroup>
                   <FormControlLabel
