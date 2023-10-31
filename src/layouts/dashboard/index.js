@@ -135,7 +135,7 @@ function Dashboard() {
                     textColor="black"
                     className="speedometer"
                   />
-                  <p>SMBR 901 & 902</p>
+                  <p>SMBR 903 & 904</p>
                 </Card>
               </MDBox>
             </Grid>
@@ -151,7 +151,7 @@ function Dashboard() {
                   textColor="black"
                   className="speedometer"
                 />
-                <p>SMBR 901 & 902</p>
+                <p>SMBR 905 & 906</p>
               </Card>
             </Grid>
           </Grid>
@@ -185,7 +185,7 @@ function Dashboard() {
                       marks={marks}
                     />
                   </Stack>
-                  <p>SMBR 901 & 902</p>
+                  <p>SMBR 903 & 904</p>
                 </div>
                 <div className="level-meter-1">
                   <Stack className="slider-row" spacing={1} direction="row">
@@ -198,7 +198,7 @@ function Dashboard() {
                       marks={marks}
                     />
                   </Stack>
-                  <p>SMBR 901 & 902</p>
+                  <p>SMBR 905 & 906</p>
                 </div>
               </div>
             </Grid>
