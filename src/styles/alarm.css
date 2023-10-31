@@ -1,0 +1,87 @@
+.alarm {
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  max-width: 80rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.75rem;
+  color: #155588;
+}
+
+.alarm-main {
+  position: relative;
+  width: 20rem;
+  height: 25rem;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.alarm-main:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.alarm-main h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.alarm-main ul li {
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.alarm-main ul li span {
+  position: relative;
+  top: 0.2rem;
+  font-size: 1.25rem;
+  margin: 0 0.25rem;
+  color: green;
+}
+
+.alarm-main ul button {
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 1.5rem 0;
+  text-transform: capitalize;
+  background-color: #d00000;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
+.tmp-btn {
+  position: absolute;
+  right: 0;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 1.5rem 0;
+  text-transform: capitalize;
+  background-color: #0d3b66;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.tmp-btn:hover {
+  filter: brightness(150%);
+  cursor: pointer;
+}
+
+.alarm-main ul button:hover {
+  cursor: pointer;
+  filter: brightness(190%);
+}
+
+.alarm ul {
+  text-transform: uppercase;
+}
