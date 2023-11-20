@@ -44,6 +44,8 @@ import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
 import SignIn from "layouts/authentication/sign-in";
 import SignUp from "layouts/authentication/sign-up";
+import MrbInterlock from "components/MrbInterlock";
+import MbrLive from "components/MbrLive";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -52,67 +54,65 @@ const routes = [
   {
     type: "collapse",
     name: "HOME",
-    key: "dashboard",
+    key: "home",
     icon: <Icon fontSize="small">dashboard</Icon>,
-    route: "/dashboard",
+    route: "/home",
     component: <Dashboard />,
   },
   {
     type: "collapse",
     name: "BIO",
-    key: "tables",
+    key: "bio",
     icon: <Icon fontSize="small">table_view</Icon>,
-    route: "/tables",
+    route: "/bio",
     component: <Tables />,
   },
   {
     type: "collapse",
     name: "MBR",
-    key: "billing",
+    key: "mbr",
     icon: <Icon fontSize="small">receipt_long</Icon>,
-    route: "/billing",
+    route: "/mbr",
     component: <Billing />,
   },
+
   {
     type: "collapse",
     name: "DAF",
-    key: "rtl",
+    key: "daf",
     icon: <Icon fontSize="small">format_textdirection_r_to_l</Icon>,
-    route: "/rtl",
+    route: "/daf",
     component: <RTL />,
   },
   {
     type: "collapse",
     name: "BELT PRESS",
-    key: "notifications",
+    key: "beltPress",
     icon: <Icon fontSize="small">BungalowRounded</Icon>,
-    route: "/notifications",
+    route: "/beltPress",
     component: <Notifications />,
   },
   {
     type: "collapse",
     name: "ALARM",
-    key: "profile",
+    key: "alarm",
     icon: <Icon fontSize="small">alarm</Icon>,
-    route: "/profile",
+    route: "/alarm",
     component: <Profile />,
   },
-  // {
-  //   type: "collapse",
-  //   name: "PUMP DETAILS",
-  //   key: "sign-in",
-  //   icon: <Icon fontSize="small">SanitizerOutlined</Icon>,
-  //   route: "/authentication/sign-in",
-  //   component: <SignIn />,
-  // },
-  // {
-  //   type: "collapse",
-  //   name: "PUMP DETAILS",
-  //   key: "sign-up",
-  //   icon: <Icon fontSize="small">SanitizerOutlined</Icon>,
-  //   route: "/authentication/sign-up",
-  //   component: <SignUp />,
-  // },
+  {
+    key: "mbrInterlock",
+    route: "/mbrInterlock",
+    component: <MrbInterlock />,
+  },
+  {
+    // type: "collapse",
+    // name: "MBR Live",
+    key: "mrbLive",
+    // icon: <Icon fontSize="small">LiveHelp</Icon>,
+    route: "/mrbLive",
+    component: <MbrLive />,
+  },
 ];
 
 export default routes;

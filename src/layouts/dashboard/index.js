@@ -29,6 +29,7 @@ import MDBox from "components/MDBox";
 
 import "../../styles/home.css";
 import * as React from "react";
+import { Link } from "react-router-dom";
 
 import Stack from "@mui/material/Stack";
 import Slider from "@mui/material/Slider";
@@ -40,7 +41,7 @@ import FormHelperText from "@mui/material/FormHelperText";
 import Switch from "@mui/material/Switch";
 import ButtonGroup from "@mui/material/ButtonGroup";
 
-function valuetext(value: number) {
+function valuetext(value) {
   return `${value}`;
 }
 
@@ -236,8 +237,13 @@ function Dashboard() {
         <button>MBR-FILTRATION</button>
         <button>MBC-RC</button>
         <button>MBC-MC</button>
-        <button>ALARM</button>
-        <button>MBC-INTERLOCK</button>
+        <Link to="/alarm">
+          <button>ALARM</button>
+        </Link>
+
+        <Link to="/mbrInterlock">
+          <button>MBR INTERLOCK</button>
+        </Link>
         <button>MBC-VALVE</button>
       </div>
     </DashboardLayout>

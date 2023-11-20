@@ -1,0 +1,124 @@
+.mbrInterlock {
+  margin-top: 1.5rem;
+  margin-left: 17rem;
+  padding: 1rem;
+}
+
+.mbrInterlock h2 {
+  text-align: center;
+}
+
+.mbrInterlock h3 {
+  margin-top: 1.2rem;
+  text-transform: uppercase;
+}
+
+.mbrInterlock-box1 {
+  /* display: flex; */
+}
+
+.mbrInterlock-box1-btn {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.mbrInterlock-box1-btn button {
+  border: 2px solid #283618;
+  padding: 0.75rem 1.5rem;
+  background-color: #a3b18a;
+  font-size: 1.1rem;
+  border-radius: 0.25rem;
+  color: #283618;
+  font-weight: 600;
+}
+
+.mbrInterlock-box1-btn button:hover {
+  background-color: #283618;
+  color: #a3b18a;
+  cursor: pointer;
+}
+
+.mbrInterlock-box1-btn button:focus {
+  background-color: #283618;
+  color: #a3b18a;
+  cursor: pointer;
+}
+
+.mbrInterlock-box1-arrow {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  font-size: 2rem;
+}
+
+.mbrInterlock-box2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  padding: 1rem 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.mbrInterlock-box2-set1 {
+  padding: 1.5rem 2.5rem;
+}
+
+.mbrInterlock-box2-set1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mbrInterlock-box2-set1 div {
+  text-transform: uppercase;
+}
+
+.mbrInterlock-box2-set1 div p {
+  border-bottom: 2px solid black;
+}
+
+.mbrInterlock-box2-set2 {
+  display: flex;
+  gap: 2rem;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+}
+
+.mbrInterlock-box2-set2-h5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-transform: uppercase;
+}
+
+.mbrInterlock-box2-set2-p {
+  display: flex;
+  flex-direction: column;
+  gap: 1.45rem;
+}
+
+.mbrInterlock-box2-set2-p p {
+  border-bottom: 2px solid black;
+  color: #023047;
+}
+
+.mbrInterlock-mrb-btn {
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: rgb(49, 92, 172);
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.mbrInterlock-title {
+  display: flex;
+  justify-content: space-between;
+}

@@ -13,6 +13,8 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
+import Mrb from "../../components/Mbr";
+
 // @mui material components
 import Grid from "@mui/material/Grid";
 
@@ -36,6 +38,7 @@ function Billing() {
   return (
     <DashboardLayout>
       <DashboardNavbar absolute isMini />
+      <Mrb />
       {/* <MDBox mt={8}>
         <MDBox mb={3}>
           <Grid container spacing={3}>
