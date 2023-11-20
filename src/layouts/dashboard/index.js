@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Material Dashboard 2 React - v2.2.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-// import the component
 import ReactSpeedometer from "react-d3-speedometer";
 
 import Card from "@mui/material/Card";
@@ -101,7 +86,7 @@ function Dashboard() {
       <MDBox py={3}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={6} lg={3}>
-            <h1>MRB LIVE</h1>
+            {/* <h1>MRB LIVE</h1> */}
           </Grid>
         </Grid>
         <MDBox mt={4.5}>
