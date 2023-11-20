@@ -98,9 +98,8 @@
 }
 
 .mrb-box3 {
-  /* background-color: #fff; */
+  margin-top: 1.5rem;
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-evenly;
 }
 
