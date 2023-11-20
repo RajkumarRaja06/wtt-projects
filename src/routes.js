@@ -42,8 +42,6 @@ import Billing from "layouts/billing";
 import RTL from "layouts/rtl";
 import Notifications from "layouts/notifications";
 import Profile from "layouts/profile";
-import SignIn from "layouts/authentication/sign-in";
-import SignUp from "layouts/authentication/sign-up";
 import MrbInterlock from "components/MrbInterlock";
 import MbrLive from "components/MbrLive";
 
@@ -54,9 +52,9 @@ const routes = [
   {
     type: "collapse",
     name: "HOME",
-    key: "home",
+    key: "dashboard",
     icon: <Icon fontSize="small">dashboard</Icon>,
-    route: "/home",
+    route: "/dashboard",
     component: <Dashboard />,
   },
   {
@@ -106,10 +104,7 @@ const routes = [
     component: <MrbInterlock />,
   },
   {
-    // type: "collapse",
-    // name: "MBR Live",
     key: "mrbLive",
-    // icon: <Icon fontSize="small">LiveHelp</Icon>,
     route: "/mrbLive",
     component: <MbrLive />,
   },
