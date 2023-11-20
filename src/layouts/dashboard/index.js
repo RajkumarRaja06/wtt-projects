@@ -219,6 +219,9 @@ function Dashboard() {
         </MDBox>
       </MDBox>
       <div className="footerBtn">
+        <Link to="/mrbLive">
+          <button>MBR-LIVE</button>
+        </Link>
         <button>MBR-FILTRATION</button>
         <button>MBC-RC</button>
         <button>MBC-MC</button>
